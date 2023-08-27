@@ -1,0 +1,30 @@
+{
+    "name": "Off The Hook",
+    "description": "No more clickbait, on YouTube or wherever you browse.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+        "*://*.youtube.com/*",
+        "https://judgedreadly.pythonanywhere.com/*"
+    ],
+    "content_scripts":[
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
