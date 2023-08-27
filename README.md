@@ -4,5 +4,5 @@
 
 Project: Off The Hook
 Team: GG Industries, registered as "Tilted Towers"
-Contirbutors: Max Gadd and Michael Guarrera
+Contributors: Max Gadd and Michael Guarrera
  
