@@ -20,8 +20,8 @@ function getVideoInfo() {
             addSendUrlList(link);
             // But for now just make the change here, although it normally isn't made at this point
             // (This would likely end up happening async i.e. once they are returned)
-            title.textContent = title.textContent + "!"; //for example add an exclaimation mark
-            link.style.backgroundColor = 'black'; //also change colour to make changes easy to see
+            //title.textContent = title.textContent + "!"; //for example add an exclaimation mark
+            //link.style.backgroundColor = '#FFC0CB'; //also change colour to make changes easy to see
             addCompletedUrl(link);
             console.log(title);
         }        
